@@ -1,0 +1,14 @@
+{
+  "name": "dockerfiles-node",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/usr/src/app",
+"shutdownAction": "stopCompose",
+"extensions": [
+	"dbaeumer.vscode-eslint",
+	"christian-kohler.path-intellisense",
+	"esbenp.prettier-vscode",
+	"shinnn.stylelint",
+	"wallabyjs.quokka-vscode"
+]
+}
