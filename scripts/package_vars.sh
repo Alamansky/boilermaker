@@ -1,3 +1,7 @@
+# node packages
+# nodemon : live reloading for node servers
+NODE_PACKAGES="nodemon"
+
 # webpack packages
 # webpack : core webpack functionality
 # webpack-cli : webpack command line tool

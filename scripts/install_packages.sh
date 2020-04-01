@@ -4,7 +4,7 @@ printf "Installing base packages..."
 
 if [ "$NODE" == "true" ]
 then
-    npm i -D $BABEL_PACKAGES $ESLINT_PACKAGES $PRETTIER_PACKAGES
+    npm i -D $BABEL_PACKAGES $ESLINT_PACKAGES $PRETTIER_PACKAGES $NODE_PACKAGES
     npm i $MISC_PACKAGES
 fi
 

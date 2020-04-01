@@ -4,7 +4,7 @@ if [ "$NODE" == "true" ]
 then
     rm .browserlistrc .stylelintrc.js webpack.config.js webpack.javascript.partial.js webpack.styles.partial.js src;
     touch index.js
-
+fi
 if [ "$TYPESCRIPT" = "true" ]
 then
     echo "
